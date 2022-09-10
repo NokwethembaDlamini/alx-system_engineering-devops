@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%.2f\n", $-1
+cat -n | grep [13579][[:space:]] | tr -s '' | cut -f2
